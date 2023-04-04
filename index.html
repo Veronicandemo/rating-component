@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Rating Component</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <section>
+        
+        <div class="message hidden">
+            <div>
+                <img src="./imgs/phoneee.png" alt="sent-message" class="img-message">
+            </div>
+            <div>
+                <div class="btn selection-btn">You selected 1 out 5</div>
+            </div>
+            <h2 class="heading">Thank you!</h2>
+            <p>We appriciate you taking the time to give a rating.If you ever need more support,don't hesitate to get in touch.
+            </p>
+        </div>
+        <div  class="rate-box">
+        <div class="icon">
+            <ion-icon name="star" class="star-icon"></ion-icon>
+        </div>
+        <h2>How did we do?</h2>
+        <p>Please let us know how we did with your support request.
+            All feedback is appriciated to help us improve our offering!</p>
+        <div class="ratings">
+            <div class="rate">1</div>
+            <div class="rate">2</div>
+            <div class="rate">3</div>
+            <div class="rate">4</div>
+            <div class="rate">5</div>
+        </div>
+        <button class="btn btn-submit">submit</button>
+    </div>
+</section>
+<div class="overlay hidden"></div>
+    <script defer src="./scripts/script.js"></script>
+</body>
+</html>

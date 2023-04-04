@@ -1,0 +1,124 @@
+/* 
+colors
+#1a1a1a ---primary-color
+#383838 ----secondary-color
+#ff922b --- tertiary-color
+#ffffff
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #07000d;
+    color: #ffffff;
+}
+/* Rate box */
+.rate-box{
+    height: 70%;
+    width: 28%;
+    background-color: #0f001a;    
+    margin: 10% auto;
+    padding: 2%;
+    border-radius: 15px;
+    overflow: hidden;
+    /* display: block; */
+}
+/* Icon */
+.icon{
+    background-color: #383838;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.star-icon{
+    color: #e27c00;
+    width: 20px;
+    height: 20px;
+    margin-top: 30%;
+}
+/* Heading and paragraph */
+h2{
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+p{
+    line-height: 1.4;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 5%;
+    color: #999999;
+}
+
+/* ratings */
+.ratings{
+    display: flex;
+    gap: 5%;
+    margin-bottom: 5%;
+    /* align-items: center;img-message */
+}
+.rate{
+    background-color: #383838;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+.rate:active,
+.rate:hover{
+    background-color: #e27c00;
+}
+
+
+/* BUTTON */
+.btn{
+    border-style: none;
+    padding: 5% 40%;
+    border-radius: 50px;
+    background-color: #e27c00;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+
+/*To make Hidden class work */
+.hidden{
+    display: none;
+}
+.message{
+    height: 70%;
+    width: 30%;
+    background-color: #0f001a;    
+    margin: 10% auto;
+    padding: 2%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.heading{
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+.img-message{
+    height: 45%;
+    width: 45%;
+    margin-left: 30%;
+}
+.selection-btn{
+    font-size: 12px;
+    padding: 4% 20%;
+    background-color: #5c5c5cc1;
+    margin: 3% 1%;
+    color: #f98900;
+    margin-bottom: 5%;
+}

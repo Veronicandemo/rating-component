@@ -122,3 +122,21 @@ p{
     color: #f98900;
     margin-bottom: 5%;
 }
+.icon-remove{
+    color: #f98900;
+    width: 45px;
+    height: 45px;
+}
+.remove-message{
+    margin-left: 90%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }

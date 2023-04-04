@@ -1,7 +1,7 @@
 'use strict'
 const rateBox = document.querySelector('.rate-box')
 const message = document.querySelector('.message');
-const overlay = document.querySelector('.overlay');
+const removeMessage = document.querySelector('.remove-message');
 const rateButtons = document.querySelectorAll('.rate');
 const submitButton = document.querySelector('.btn-submit');
 const rateShowBtn = document.querySelector('.selection-btn')
@@ -23,8 +23,7 @@ submitButton.addEventListener('click', () => {
     message.classList.remove('hidden')
     rateBox.classList.add('hidden')
 })
-overlay.addEventListener('click', () => {
-    rateBox.classList.add('hidden')
-    message.classList.remove('hidden')
-    console.log('clicked')
+removeMessage.addEventListener('click', () => {
+    rateBox.classList.remove('hidden')
+    message.classList.add('hidden')
 })
